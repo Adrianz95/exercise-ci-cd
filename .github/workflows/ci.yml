@@ -28,5 +28,4 @@ jobs:
         run: chmod +x mvnw
 
       - name: Build and test with Maven
-        working-directory: exercise-ci-cd
         run: ./mvnw -B clean verify
